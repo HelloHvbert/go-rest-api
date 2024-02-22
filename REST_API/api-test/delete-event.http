@@ -1,0 +1,2 @@
+DELETE  http://[::1]:8080/events/3 HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzA4NjIzOTcwLCJ1c2VySWQiOjF9.ou9ygrr1uipaIw6MKuwyPXdap-2lrj6LIMC08aUu15w

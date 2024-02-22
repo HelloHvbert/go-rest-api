@@ -1,0 +1,10 @@
+POST http://[::1]:8080/events HTTP/1.1
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzA4NjIzOTcwLCJ1c2VySWQiOjF9.ou9ygrr1uipaIw6MKuwyPXdap-2lrj6LIMC08aUu15w
+
+{
+    "name": "Test23 event",
+    "description": "A test23 event",
+    "location": "Test2 location",
+    "dateTime": "2020-12-31T23:30:00.000Z"
+}

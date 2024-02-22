@@ -1,0 +1,10 @@
+PUT http://[::1]:8080/events/2 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Updated Event",
+  "description": "Updated Description",
+  "location": "Updated Location",
+  "datetime": "2021-12-31T23:59:59.999Z"
+}
+```
