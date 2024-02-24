@@ -36,6 +36,10 @@ go run main.go
 ```
 
 ### Running with Docker
+Navigate to the project directory:
+```bash
+cd go-rest-api
+```
 Build the Docker image:
 ```bash
 docker build -t go-rest-api .
@@ -46,7 +50,3 @@ docker run -d -p 8080:8080 go-rest-api
 ```
 
 The application will now be accessible at http://localhost:8080.
-
-
-
-
