@@ -34,3 +34,19 @@ Start the server:
 ```bash
 go run main.go
 ```
+
+### Running with Docker
+Build the Docker image:
+```bash
+docker build -t go-rest-api .
+```
+Run the Docker container:
+```bash
+docker run -d -p 8080:8080 go-rest-api
+```
+
+The application will now be accessible at http://localhost:8080.
+
+
+
+
