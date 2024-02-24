@@ -24,7 +24,7 @@ git clone https://github.com/HelloHvbert/go-rest-api.git
 ```
 Navigate to the project directory:
 ```bash
-cd go-rest-api
+cd go-rest-api/REST_API
 ```
 Install dependencies:
 ```bash
@@ -38,7 +38,7 @@ go run main.go
 ### Running with Docker
 Navigate to the project directory:
 ```bash
-cd go-rest-api
+cd go-rest-api/REST_API
 ```
 Build the Docker image:
 ```bash
